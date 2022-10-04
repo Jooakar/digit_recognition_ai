@@ -5,11 +5,10 @@ Images used in training the model are generated from over 3000 fonts downloaded 
 
 ## Generating training data
 ### Setting up fonts
-Download the fonts used in generating this the model [here](https://mega.nz/file/lqhAmQYJ#MWhRw25wPtk43pWgvAUVT4RagPZazoodrFoSH5LipgE)
-Once downloaded, extract the file contents into the /fonts folder and run list_fonts.sh to generate file containing the paths to all font files (font_list.txt)
+Download the fonts used in generating this the model [here](https://mega.nz/file/lqhAmQYJ#MWhRw25wPtk43pWgvAUVT4RagPZazoodrFoSH5LipgE). Once downloaded, extract the file contents into the /fonts folder and run list_fonts.sh
 
 ### Generating the images
-Run generate_data.py to generate the training data images. If you also want to generate the tensorflowjs model, run the make_all_data.sh script before running train_model.ipynb.
+Run generate_data.py to generate the training data images. If you also want to generate the tensorflowjs model, run the make_all_data.sh script before training the model.
 
 ## Training and using the model
 ### Training
