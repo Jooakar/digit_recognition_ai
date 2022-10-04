@@ -1,5 +1,5 @@
 # Digit recognition AI
-Simple and extremely light Tensorflow model used in predicting the digits from 1-9. Compatible with Python projects using trained.model and with Javascript using Tensorflowjs and tfjs_model.
+A simple and extremely light Tensorflow model used in predicting the digits from 1 to 9. Compatible with Python projects using trained.model and with Javascript using Tensorflowjs and tfjs_model.
 
 Images used in training the model are generated from over 3000 fonts downloaded from [Google fonts](https://fonts.google.com/) and those found by default on the Linux Mint distro.
 
